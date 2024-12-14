@@ -40,23 +40,23 @@ Borrow out = A'Bin + A'B + BBin
 
 ### Truthtable :
 
-# Full Adder
+#### Full Adder
   ![image](https://github.com/user-attachments/assets/42be90e9-a871-4a2a-9491-a5ef4a9b2f37)
 
 
-# Full Subtractor
+#### Full Subtractor
 ![image](https://github.com/user-attachments/assets/857c3088-5e25-4916-95e5-2f15f43b9e89)
 
 
 ### Procedure
-# Full Adder:
+#### Full Adder:
 1.Open Quartus II and create a new project.
 2.Use schematic design entry to draw the full adder circuit. 
 3.The circuit consists of XOR, AND, and OR gates. 
 4.Compile the design, verify its functionality through simulation. 
 5.Implement the design on the target device and program it.
 
-# Full Subtractor: 
+#### Full Subtractor: 
 1.Follow the same steps as for the full adder. 
 2.Draw the full subtractor circuit using schematic design. 
 3.The circuit includes XOR, AND, OR gates to perform subtraction. 
@@ -65,7 +65,7 @@ Borrow out = A'Bin + A'B + BBin
 
 ### Program:
 
-# Full Adder
+#### Full Adder
 module fulladd_top(a,b,cin,sum,carry);
 input a,b,cin;
 output sum,carry;
@@ -80,7 +80,7 @@ and(w4,cin,a);
 or(carry,w2,w3,w4);
 endmodule 
 
-# Full Subtractor
+#### Full Subtractor
 module fullsub_top(a,b,Bin,BO,DIFF);
 input a,b,Bin;
 output BO,DIFF;
@@ -97,10 +97,10 @@ endmodule
 
 
 ### Output Timing Waveform
-# Full Adder
+#### Full Adder
 ![image](https://github.com/user-attachments/assets/adbc048b-7115-40d6-8f11-b977747fe509)
 
-# Full Subtractor
+#### Full Subtractor
 ![image](https://github.com/user-attachments/assets/6327ec10-ce5e-4ea2-adb2-cec36f4b8794)
 
 
