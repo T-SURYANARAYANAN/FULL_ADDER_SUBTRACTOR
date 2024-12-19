@@ -41,11 +41,11 @@ Borrow out = A'Bin + A'B + BBin
 ### Truthtable :
 
 #### Full Adder
-  ![image](https://github.com/user-attachments/assets/42be90e9-a871-4a2a-9491-a5ef4a9b2f37)
+![image](https://github.com/user-attachments/assets/4aff2574-3203-4e37-8148-118a0f82bb25)
 
 
 #### Full Subtractor
-![image](https://github.com/user-attachments/assets/857c3088-5e25-4916-95e5-2f15f43b9e89)
+![image](https://github.com/user-attachments/assets/51bcc16f-b772-4f54-b682-951d6f20cf6d)
 
 
 ### Procedure
