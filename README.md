@@ -1,6 +1,6 @@
 ### Name : T-SURYANARAYANAN
 ### REG NO : 24900450
-### EX : Full Adder and Full Subtractor
+### EX-03 : Full Adder and Full Subtractor
 
 Implementation-of-Full-Adder-and-Full-subtractor-circuit
 
