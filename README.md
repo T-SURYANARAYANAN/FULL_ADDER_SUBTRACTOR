@@ -1,6 +1,6 @@
 ### Name : T-SURYANARAYANAN
 ### REG NO : 24900450
-### EX-03 : Full Adder and Full Subtractor
+### EX-04 : Full Adder and Full Subtractor
 
 Implementation-of-Full-Adder-and-Full-subtractor-circuit
 
@@ -66,42 +66,29 @@ Borrow out = A'Bin + A'B + BBin
 ### Program:
 
 #### Full Adder
-module fulladd_top(a,b,cin,sum,carry);
-input a,b,cin;
-output sum,carry;
-wire w1,w2,w3,w4;       
-xor(w1,a,b);
-xor(sum,w1,cin);        
-
-and(w2,a,b);
-and(w3,b,cin);
-and(w4,cin,a);
-
-or(carry,w2,w3,w4);
-endmodule 
+  ![image](https://github.com/user-attachments/assets/a623f183-23a6-4e18-bb4f-a469394d7ad6)
 
 #### Full Subtractor
-module fullsub_top(a,b,Bin,BO,DIFF);
-input a,b,Bin;
-output BO,DIFF;
-assign DIFF = a ^ b ^ Bin;
-  assign BO = (a & b) | ((a ^ b) & Bin);
-endmodule
 
+![image](https://github.com/user-attachments/assets/3f1f8ddb-bfb4-417d-b920-d44981a91c77)
 
 /* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
 */
 
 ### RTL Schematic
-![image](https://github.com/user-attachments/assets/20f43ae6-5684-4e2d-99a2-e2fc75f6c809)
-
-
-### Output Timing Waveform
 #### Full Adder
-![image](https://github.com/user-attachments/assets/adbc048b-7115-40d6-8f11-b977747fe509)
+![image](https://github.com/user-attachments/assets/9603d5d7-6c56-4885-8b25-0d1c7440fe3c)
 
 #### Full Subtractor
-![image](https://github.com/user-attachments/assets/6327ec10-ce5e-4ea2-adb2-cec36f4b8794)
+![image](https://github.com/user-attachments/assets/d908d506-4fcd-4d77-afc8-b7fd6b222be3)
+
+### Output Timing Waveform
+
+#### Full Adder
+![image](https://github.com/user-attachments/assets/6751e031-010b-45a3-b49e-6e5ab00af69e)
+
+#### Full Subtractor
+![image](https://github.com/user-attachments/assets/8a0b03de-25a5-4072-b6ee-e13eb15df76b)
 
 
 ### Result:
