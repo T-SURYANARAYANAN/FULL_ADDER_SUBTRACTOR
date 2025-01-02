@@ -2,7 +2,7 @@
 ### REG NO : 24900450
 ### EX-04 : Implementation of Full Adder and Full Subtractor
 
-Implementation-of-Full-Adder-and-Full-subtractor-circuit
+
 
 ### AIM:
 
